@@ -1,11 +1,20 @@
-import React from 'react'
+// src/Pages/Landing.jsx
+import React from "react";
+import Navbar from "../components/Navbar";
+import Readytotranform from "../components/Readytotranform";
 
 const Landing = () => {
   return (
     <div>
-      
-    </div>
-  )
-}
+      {/* Navbar at the top */}
+      <Navbar />
 
-export default Landing
+      {/* Other sections or hero can go here */}
+
+      {/* CTA Section */}
+      <Readytotranform />
+    </div>
+  );
+};
+
+export default Landing;
