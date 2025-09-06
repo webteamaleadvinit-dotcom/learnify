@@ -14,7 +14,7 @@ const Footer=()=>{
                         </div>
                     </div>
 
-                    <div className="p-8 text-center">
+                    <div className="p-8 md:text-center">
                         <h5 className="text-lg font-semibold leading-loose">Platform</h5>
                         <ul>
                             <li className="leading-loose">Features</li>
@@ -24,7 +24,7 @@ const Footer=()=>{
                         </ul>
                     </div>
 
-                    <div className="p-8 text-center">
+                    <div className="p-8 md:text-center">
                         <h5 className="text-lg font-semibold leading-loose">Support</h5>
                         <ul>
                             <li><a href="" className="leading-loose">Help Center</a></li>
@@ -34,7 +34,7 @@ const Footer=()=>{
                         </ul>
                     </div>
 
-                    <div className="p-8 text-center">
+                    <div className="p-8 md:text-center">
                         <h5 className="text-lg font-semibold leading-loose">Company</h5>
                         <ul>
                             <li><a href="" className="leading-loose">About us</a></li>

@@ -30,8 +30,8 @@ const Learnersay=()=>{
         <>
             <section className="mb-8 mt-8">
                 <div className="container mx-auto text-center px-20 py-15">
-                    <h3 className="text-5xl font-bold mb-8">What Our Learners Say</h3>
-                    <p className="text-3xl tracking-wide">Join thousands of students and professionals who have transformed their Learning journey with Learnify</p>
+                    <h3 className="text-4xl md:text-5xl font-bold mb-8">What Our Learners Say</h3>
+                    <p className="text-lg md:text-xl lg:text-3xl tracking-wide">Join thousands of students and professionals who have transformed their Learning journey with Learnify</p>
                 </div>
 
                 <div className="container mx-auto px-20 mt-5">
@@ -39,8 +39,8 @@ const Learnersay=()=>{
                         {
                             client.map(function(item){
                                 return(
-                                    <figure className="bg-[#e7e7e7] p-5 rounded-2xl flex mb-8 shadow-lg">
-                            <div className="w-80 mr-5">
+                                    <figure className="bg-[#e7e7e7] p-5 rounded-2xl md:flex mb-8 shadow-lg">
+                            <div className="w-96 mr-5">
                             <img src={item.img} alt="" className="w-24 h-24 rounded-[50%] object-cover"/>
                             </div>
                             <figcaption className="pb-8">
