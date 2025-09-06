@@ -54,6 +54,7 @@ function Whychoose() {
     //   </div>
     // </section>
     <section className="bg-gray-50 py-16 px-6 mt-20">
+      
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-5xl font-bold text-black mb-4">
           Why Choose Learnify?
@@ -71,7 +72,7 @@ function Whychoose() {
             key={index}
             className="bg-white rounded-2xl shadow-md py-6 px-10 hover:shadow-lg transition"
           >
-            <div className="mb-4">{item.icon}</div>
+            <div className="icon bg-gray-400 rounded-md w-10 h-10 mb-10 mt-10"></div>
             <h3 className="text-2xl font-semibold text-black mb-2">
               {item.title}
             </h3>
