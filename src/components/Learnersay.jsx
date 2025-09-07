@@ -40,7 +40,7 @@ const Learnersay=()=>{
                             client.map(function(item){
                                 return(
                                     <figure className="bg-[#e7e7e7] p-5 rounded-2xl md:flex mb-8 shadow-lg">
-                            <div className="w-96 mr-5">
+                            <div className="w-full sm:w-96 mr-5">
                             <img src={item.img} alt="" className="w-24 h-24 rounded-[50%] object-cover"/>
                             </div>
                             <figcaption className="pb-8">
