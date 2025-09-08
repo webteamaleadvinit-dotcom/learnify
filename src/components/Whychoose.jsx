@@ -9,10 +9,10 @@ function Whychoose() {
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="lucide lucide-brain text-blue-500">
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="lucide lucide-brain text-blue-500">
         <path d="M12 18V5" />
         <path d="M15 13a4.17 4.17 0 0 1-3-4 4.17 4.17 0 0 1-3 4" />
         <path d="M17.598 6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5" />
@@ -32,10 +32,10 @@ function Whychoose() {
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="lucide lucide-clock-3 text-yellow-500">
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="lucide lucide-clock-3 text-yellow-500">
         <path d="M12 6v6h4" />
         <circle cx="12" cy="12" r="10" />
       </svg>
@@ -55,7 +55,7 @@ function Whychoose() {
     {
       title: "Achievement System",
       desc: "Earn certificates, badges, and unlock new content as you progress through your learning journey.",
-      svg: <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="purple" stroke="purple" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trophy-icon lucide-trophy">
+      svg: <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="purple" stroke="purple" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-trophy-icon lucide-trophy">
         <path d="M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978" />
         <path d="M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978" />
         <path d="M18 9h1.5a1 1 0 0 0 0-5H18" />
@@ -68,7 +68,7 @@ function Whychoose() {
     {
       title: "Progress Analytics",
       desc: "Detailed insights into your learning patterns, strengths, and areas for improvement.",
-      svg: <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#C71585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-signal-icon lucide-signal">
+      svg: <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#C71585" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-signal-icon lucide-signal">
         <path d="M2 20h.01" />
         <path d="M7 20v-4" />
         <path d="M12 20v-8" />
@@ -81,7 +81,7 @@ function Whychoose() {
     {
       title: "Community Learning",
       desc: "Connect with fellow learners, share achievements, and learn together in a supportive community.",
-      svg: <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="cyan" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users-icon lucide-users">
+      svg: <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="cyan" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-users-icon lucide-users">
         <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
         <path d="M16 3.128a4 4 0 0 1 0 7.744" />
         <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
