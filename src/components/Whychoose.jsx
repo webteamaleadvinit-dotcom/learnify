@@ -117,7 +117,7 @@ function Whychoose() {
     //     </div>
     //   </div>
     // </section>
-    <section className="bg-gray-50 py-16 px-6 mt-20">
+    <section className="bg-gray-50 py-16 px-6 pt-20">
 
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-5xl font-bold text-black mb-4">

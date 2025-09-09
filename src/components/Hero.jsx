@@ -110,7 +110,7 @@ const Hero = () => {
 
         {/* Subheading */}
         <div className="hero-content-subheading max-w-2xl">
-          <h2 className="text-lg sm:text-xl md:text-2xl">
+          <h2 className="sm:text-lg  md:text-2xl font-semibold">
             Transform your learning journey with bite-sized lessons, interactive quizzes,
             and personalized AI-driven paths. Perfect for students and professionals
             who want to learn smarter, not harder.
@@ -129,9 +129,9 @@ const Hero = () => {
 
         {/* Extra Info */}
         <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-10">
-          <h2 className="text-base sm:text-lg md:text-xl">No Credit Card Required</h2>
-          <h2 className="text-base sm:text-lg md:text-xl">5-Minute Lessons</h2>
-          <h2 className="text-base sm:text-lg md:text-xl">AI-Powered Programme</h2>
+          <h2 className="text-base sm:text-lg md:text-xl font-semibold">No Credit Card Required</h2>
+          <h2 className="text-base sm:text-lg md:text-xl font-semibold">5-Minute Lessons</h2>
+          <h2 className="text-base sm:text-lg md:text-xl font-semibold">AI-Powered Programme</h2>
         </div>
       </div>
     </div>
