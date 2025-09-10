@@ -90,9 +90,9 @@ const CourseProgress = () => {
                 <div className="mt-5">
                     {/* course info div */}
                     {
-                        course.map(function(x){
+                        course.map(function(x,key){
                             return(
-                                <div className="rounded-xl shadow-lg overflow-hidden mb-15">
+                                <div key={key} className="rounded-xl shadow-lg overflow-hidden mb-15">
                     <div className="px-4 sm:px-6 py-5 flex flex-col md:flex-row gap-4 md:gap-6">
                         <div className="flex-shrink-0">{x.icon}</div>
 

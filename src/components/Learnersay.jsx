@@ -37,9 +37,9 @@ const Learnersay=()=>{
                 <div className="container mx-auto px-20 mt-5">
                      <div className="lg:grid grid-cols-3 gap-10">
                         {
-                            client.map(function(item){
+                            client.map(function(item,key){
                                 return(
-                                    <figure className="bg-[#e7e7e7] p-5 rounded-2xl md:flex mb-8 shadow-lg">
+                                    <figure key={key} className="bg-[#e7e7e7] p-5 rounded-2xl md:flex mb-8 shadow-lg">
                             <div className="w-full sm:w-96 mr-5">
                             <img src={item.img} alt="" className="w-24 h-24 rounded-[50%] object-cover"/>
                             </div>
