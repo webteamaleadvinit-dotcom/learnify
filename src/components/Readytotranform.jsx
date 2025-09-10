@@ -1,5 +1,8 @@
 // src/components/CTAReady.jsx
 import React from "react";
+import { BsFillPersonCheckFill } from "react-icons/bs";
+import { LiaCertificateSolid } from "react-icons/lia";
+import { AiOutlineSafetyCertificate } from "react-icons/ai";
 
 export default function Readytotranform() {
   return (
@@ -19,10 +22,22 @@ export default function Readytotranform() {
             Watch Demo
           </button>
         </div>
-        <div className="text-sm">
-          <span className="mx-2">30-Day Money-Back Guarantee</span> | 
-          <span className="mx-2">24/7 Learning Support</span> | 
-          <span className="mx-2">Verified Certificates</span>
+        
+        <div className="font-semibold text-black flex justify-center gap-4 mb-6">
+            <div className="flex aligns-center gap-2">
+              <AiOutlineSafetyCertificate className="text-green-200" size={20}/>
+              <p>30-Day Money-Back Guarantee</p>
+            </div>
+
+            <div className="flex aligns-center gap-2">
+              <BsFillPersonCheckFill className="text-green-200" size={20}/>
+              <p>24/7 Learning Support</p>
+            </div>
+
+            <div className="flex aligns-center gap-2">
+              <LiaCertificateSolid className="text-green-200" size={20}/>
+              <p>Verified Certificates</p>
+            </div>
         </div>
       </div>
     </section>

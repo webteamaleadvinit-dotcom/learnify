@@ -1,14 +1,13 @@
 import React, { useState } from "react";
-import { UserCircle, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import { IoPerson } from "react-icons/io5";
 
 const Navbar = () => {
-  const [active, setActive] = useState("Home");
+  
   const [open, setOpen] = useState(false); // for mobile menu
 
-  const links = ["Home", "Dashboard", "My learning", "Certificates"];
-
   return (
-    <nav className="bg-blue-500 px-3 py-3 shadow-md">
+    <nav className="px-3 py-3">
       <div className="flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2 h-8 px-4 md:h-8">
@@ -17,28 +16,31 @@ const Navbar = () => {
 
 
         {/* Desktop Links */}
+
         <ul className="hidden md:flex gap-6">
-          {links.map((link) => (
-            <li key={link}>
-              <button
-                onClick={() => setActive(link)}
-                className={`${
-                  active === link
-                    ? "bg-white text-blue-500 font-semibold px-4 py-1 rounded-full "
-                    : "text-black hover:text-gray-200 "
-                } transition`}
-              >
-                {link}
-              </button>
-            </li>
-          ))}
-        </ul>
+          <li>
+            <a href="/" className={`text-base font-semibold hover:text-sky-600 hover:border-b-2 border-sky-500 ${window.location.pathname === "/" ? "text-sky-600 border-b-2 border-sky-500" : ""}`}>Home</a>
+          </li>
+
+          <li>
+            <a href="/dashboard" className={`text-base font-semibold hover:text-sky-600 hover:border-b-2 border-sky-500 ${window.location.pathname === "/dashboard" ? "text-sky-600 border-b-2 border-sky-500" : ""}`}>Dashboard</a>
+          </li>
+
+          <li>
+            <a href="/learning" className={`text-base font-semibold hover:text-sky-600 hover:border-b-2 border-sky-500 ${window.location.pathname === "/learning" ? "text-sky-600 border-b-2 border-sky-500" : ""}`}>My Learning</a>
+          </li>
+
+          <li>
+            <a href="/certificates" className={`text-base font-semibold hover:text-sky-600 hover:border-b-2 border-sky-500 ${window.location.pathname === "/certificates" ? "text-sky-600 border-b-2 border-sky-500" : ""}`}>Certificates</a>
+          </li>
+</ul>
+
 
         {/* User Icon & Mobile Menu Button */}
         <div className="flex items-center gap-4">
-          <UserCircle size={28} className="text-black" />
+          <IoPerson size={28} className="text-black" />
           <button className="md:hidden" onClick={() => setOpen(!open)}>
-            {open ? <X size={28} className="text-white" /> : <Menu size={28} className="text-white" />}
+            {open ? <X size={28} /> : <Menu size={28}/>}
           </button>
         </div>
       </div>
@@ -46,23 +48,21 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {open && (
         <ul className="flex flex-col gap-4 mt-4 md:hidden">
-          {links.map((link) => (
-            <li key={link}>
-              <button
-                onClick={() => {
-                  setActive(link);
-                  setOpen(false); // close menu on click
-                }}
-                className={`${
-                  active === link
-                    ? "bg-white text-blue-500 font-semibold px-4 py-1 rounded-full"
-                    : "text-white hover:text-gray-200"
-                } transition w-full text-left`}
-              >
-                {link}
-              </button>
-            </li>
-          ))}
+          <li>
+            <a href="/" className={`text-base font-semibold hover:text-sky-600 hover:border-b-2 border-sky-500 ${window.location.pathname === "/" ? "text-sky-600 border-b-2 border-sky-500" : ""}`}>Home</a>
+          </li>
+
+          <li>
+            <a href="/dashboard" className={`text-base font-semibold hover:text-sky-600 hover:border-b-2 border-sky-500 ${window.location.pathname === "/dashboard" ? "text-sky-600 border-b-2 border-sky-500" : ""}`}>Dashboard</a>
+          </li>
+
+          <li>
+            <a href="/learning" className={`text-base font-semibold hover:text-sky-600 hover:border-b-2 border-sky-500 ${window.location.pathname === "/learning" ? "text-sky-600 border-b-2 border-sky-500" : ""}`}>My Learning</a>
+          </li>
+
+          <li>
+            <a href="/certificates" className={`text-base font-semibold hover:text-sky-600 hover:border-b-2 border-sky-500 ${window.location.pathname === "/certificates" ? "text-sky-600 border-b-2 border-sky-500" : ""}`}>Certificates</a>
+          </li>
         </ul>
       )}
     </nav>

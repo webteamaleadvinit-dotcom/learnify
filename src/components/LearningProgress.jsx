@@ -1,7 +1,8 @@
 import React from 'react'
 
+
 const LearningProgress = () => {
-  return (
+        return (
     <div>
       
     </div>
