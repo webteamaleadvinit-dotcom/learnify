@@ -3,7 +3,7 @@ import WelcomeSection from '../components/WelcomeSection'
 import LearningProgress from '../components/LearningProgress'
 import CourseProgress from '../components/CourseProgress'
 import Recommneded from '../components/Recommneded'
-import { Unlock } from 'lucide-react'
+import Unlock from '../components/Unlock'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
@@ -15,7 +15,7 @@ const Dashboard = () => {
       <LearningProgress />
       <CourseProgress />
       <Recommneded />
-      <Unlock />
+      <Unlock/>
       <Footer />
     </div>
   )
