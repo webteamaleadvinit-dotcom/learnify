@@ -10,14 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@material-tailwind/react": "^2.1.10",
+    "@ramonak/react-progress-bar": "^5.4.0",
     "@tailwindcss/vite": "^4.1.13",
+    "class-variance-authority": "^0.7.1",
     "lucide-react": "^0.542.0",
+    "rc-progress": "^4.0.0",
     "react": "^19.1.1",
     "react-circular-progressbar": "^2.2.0",
     "react-dom": "^19.1.1",
     "react-icons": "^5.5.0",
     "react-router": "^7.8.2",
     "recharts": "^3.2.0",
+    "tailwind-variants": "^3.1.1",
     "tailwindcss": "^4.1.13"
   },
   "devDependencies": {
