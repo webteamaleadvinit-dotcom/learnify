@@ -48,8 +48,8 @@ const YourCertificateCollection=()=>{
                 {
                     certificate.map(function(detail,key){
                         return(
-                            <figure key={key} className="border rounded-xl overflow-hidden">
-                    <div className="w-full h-48 bg-gray-800"></div>
+                            <figure key={key} className="border rounded-xl overflow-hidden mb-5">
+                    <div className="w-full h-48 bg-gray-500"></div>
                     <figcaption className="p-5">
                         <h4 className="text-2xl font-semibold mb-3 h-15">{detail.title}</h4>
                         <p className="text-slate-500 mb-2">{detail.info}</p>
