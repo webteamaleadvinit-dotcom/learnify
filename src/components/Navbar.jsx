@@ -31,7 +31,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <a href="/certificates" className={`text-base font-semibold hover:text-sky-600 hover:border-b-2 border-sky-500 ${window.location.pathname === "/certificates" ? "text-sky-600 border-b-2 border-sky-500" : ""}`}>Certificates</a>
+            <a href="/certificate" className={`text-base font-semibold hover:text-sky-600 hover:border-b-2 border-sky-500 ${window.location.pathname === "/certificates" ? "text-sky-600 border-b-2 border-sky-500" : ""}`}>Certificates</a>
           </li>
 </ul>
 
@@ -61,7 +61,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <a href="/certificates" className={`text-base font-semibold hover:text-sky-600 hover:border-b-2 border-sky-500 ${window.location.pathname === "/certificates" ? "text-sky-600 border-b-2 border-sky-500" : ""}`}>Certificates</a>
+            <a href="/certificate" className={`text-base font-semibold hover:text-sky-600 hover:border-b-2 border-sky-500 ${window.location.pathname === "/certificates" ? "text-sky-600 border-b-2 border-sky-500" : ""}`}>Certificates</a>
           </li>
         </ul>
       )}
