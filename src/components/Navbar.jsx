@@ -27,7 +27,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <a href="/learning" className={`text-base font-semibold hover:text-sky-600 hover:border-b-2 border-sky-500 ${window.location.pathname === "/learning" ? "text-sky-600 border-b-2 border-sky-500" : ""}`}>My Learning</a>
+            <a href="/mylearning" className={`text-base font-semibold hover:text-sky-600 hover:border-b-2 border-sky-500 ${window.location.pathname === "/learning" ? "text-sky-600 border-b-2 border-sky-500" : ""}`}>My Learning</a>
           </li>
 
           <li>
@@ -57,7 +57,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <a href="/learning" className={`text-base font-semibold hover:text-sky-600 hover:border-b-2 border-sky-500 ${window.location.pathname === "/learning" ? "text-sky-600 border-b-2 border-sky-500" : ""}`}>My Learning</a>
+            <a href="/mylearning" className={`text-base font-semibold hover:text-sky-600 hover:border-b-2 border-sky-500 ${window.location.pathname === "/learning" ? "text-sky-600 border-b-2 border-sky-500" : ""}`}>My Learning</a>
           </li>
 
           <li>
