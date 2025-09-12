@@ -1,23 +1,25 @@
 import React from "react";
-
+import DL from "../assets/DL.jpeg";
+import python from "../assets/python.jpeg";
+import react from "../assets/react.jpeg";
 export default function RecommendedForYou() {
   // 🔹 Courses data (easier to maintain & scale later)
   const courses = [
     {
       id: 1,
-      img: "/images/DL.png",
+      img: DL,
       category: "AI & Machine Learning",
       title: "Deep Learning Fundamentals",
     },
     {
       id: 2,
-      img: "/images/python.png",
+      img: python,
       category: "AI & Machine Learning",
       title: "Python Data Analysis",
     },
     {
       id: 3,
-      img: "/images/react.png",
+      img: react,
       category: "AI & Web Development",
       title: "React Components Course",
     },

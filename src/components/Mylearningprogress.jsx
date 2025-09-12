@@ -155,7 +155,7 @@ export default function Mylearningprogress() {
 
   return (
     <div className="min-h-screen bg-gray-50 p-6">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <div className="max-w-8xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Left Section */}
         <div className="lg:col-span-2 bg-white rounded-2xl shadow p-6 space-y-4">
           <h1 className="text-2xl font-bold">

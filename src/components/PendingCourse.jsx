@@ -33,7 +33,7 @@ const PendingCourse = () => {
   ];
 
   return (
-    <section className='border-x-3 border-t-3 border-blue-500 rounded-t-2xl bg-sky-100 px-5 py-5'>
+    <section className='border-x-3 border-t-3 border-blue-500 rounded-t-2xl bg-sky-100 px-5 py-5 '>
       <h4 className='text-3xl font-bold underline underline-offset-8 mb-8'>Pending Courses</h4>
 
       <div className='lg:grid grid-cols-3 gap-5 px-5'>
