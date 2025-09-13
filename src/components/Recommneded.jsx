@@ -2,7 +2,7 @@ import React from "react";
 import DL from "../assets/DL.jpeg";
 import python from "../assets/python.jpeg";
 import react from "../assets/react.jpeg";
-export default function RecommendedForYou() {
+export default function Recommended() {
   // 🔹 Courses data (easier to maintain & scale later)
   const courses = [
     {

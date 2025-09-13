@@ -43,8 +43,40 @@ const YourCertificateCollection=()=>{
     return(
         <>
             <section className="px-5 py-5">
+                {/* Heading and Buttons styled  */}
+                <div className="text-center mt-8 mb-8">
+                  <h2 className="text-4xl font-bold text-slate-800">
+                    Your <span className="text-slate-600">Certificate Collection</span>
+                 </h2>
+
+                    <p className="text-xl mt-2">
+                       Browse and share your verified achievements across different learning categories.
+                    </p>
+                </div>
+
+               <div className="flex justify-center gap-4 my-6 flex-wrap">
+                <button className="bg-white border border-slate-300 text-slate-700 px-6 py-3 rounded-full shadow hover:bg-blue-600 hover:text-white transition">
+                    All
+                </button>
+                <button className="bg-white border border-slate-300 text-slate-700 px-6 py-3 rounded-full shadow hover:bg-blue-600 hover:text-white transition">
+                    AI & Machine Learning
+                </button>
+                <button className="bg-white border border-slate-300 text-slate-700 px-6 py-3 rounded-full shadow hover:bg-blue-600 hover:text-white transition">
+                    Data Science
+                </button>
+                <button className="bg-white border border-slate-300 text-slate-700 px-6 py-3 rounded-full shadow hover:bg-blue-600 hover:text-white transition">
+                    Marketing
+                </button>
+                <button className="bg-white border border-slate-300 text-slate-700 px-6 py-3 rounded-full shadow hover:bg-blue-600 hover:text-white transition">
+                    Web Development
+                </button>
+                <button className="bg-white border border-slate-300 text-slate-700 px-6 py-3 rounded-full shadow hover:bg-blue-600 hover:text-white transition">
+                    Design
+                </button>
+            </div>
+
                 {/* card design */}
-                <div className="my-8 lg:grid grid-cols-3 gap-10">
+                <div className="my-20 lg:grid grid-cols-3 gap-10">
                 {
                     certificate.map(function(detail,key){
                         return(
